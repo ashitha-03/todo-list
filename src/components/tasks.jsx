@@ -36,7 +36,7 @@ const response = await fetch("https://todo-backend-vaqm.onrender.com/" + taskId,
 if (response.status == 200)
 {
      getTasks();
-    alert ("task deleted");
+    alert ("taskK deleted");
    
 }
 else{
